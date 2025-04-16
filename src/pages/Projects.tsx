@@ -22,20 +22,6 @@ const Projects = () => {
       tags: ["Vue.js", "Express", "PostgreSQL"],
       link: "#",
     },
-    {
-      title: "Project Three",
-      description:
-        "The third project showcasing different technologies and approaches.",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
-      link: "#",
-    },
-    {
-      title: "Project Three",
-      description:
-        "The third project showcasing different technologies and approaches.",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
-      link: "#",
-    },
   ];
 
   return (

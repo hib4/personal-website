@@ -10,22 +10,31 @@ const About = () => {
         <Card>
           <CardContent className="p-6">
             <p className="text-lg text-muted-foreground mb-6 animate-fade-in opacity-0 animate-delay-300">
-              I'm a passionate developer with experience in building modern web
-              applications. I love working with React, TypeScript, and other
-              cutting-edge technologies to create beautiful and functional user
-              experiences.
+              I’m a software engineer who enjoys building efficient, scalable
+              solutions. I love writing clean code, optimizing systems, and
+              tackling challenges with creativity and a little bit of fun along
+              the way.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h3 className="font-semibold mb-3">Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "React",
+                    "Android",
+                    "Java",
+                    "Kotlin",
+                    "Flutter",
+                    "Dart",
+                    "Go",
+                    "Python",
+                    "Express.js",
                     "TypeScript",
                     "Node.js",
-                    "Next.js",
-                    "Tailwind CSS",
                     "PostgreSQL",
+                    "Redis",
+                    "Docker",
+                    "Firebase",
+                    "Many more...",
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -39,9 +48,8 @@ const About = () => {
               <div>
                 <h3 className="font-semibold mb-3">Experience</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li>Senior Developer at Tech Corp</li>
-                  <li>Lead Developer at Startup Inc</li>
-                  <li>Frontend Developer at Web Agency</li>
+                  <li>Software Enginner Intern at Paper.id</li>
+                  <li>Software Enginner Intern at PT Rect Media Komputindo</li>
                 </ul>
               </div>
             </div>
