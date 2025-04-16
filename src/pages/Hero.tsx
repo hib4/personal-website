@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { RotatingGreeting } from "@/components/RotatingGreeting";
+import { scrollToSection } from "@/lib/utils";
 
 const Hero = () => {
   return (
@@ -15,11 +16,11 @@ const Hero = () => {
           A full-stack developer crafting elegant solutions through code.
         </p>
         <div className="flex gap-4 animate-fade-in opacity-0 animate-delay-500">
-          <Button asChild>
-            <a href="#contact">Get in touch</a>
+          <Button onClick={() => scrollToSection("contact")}>
+            Get in touch
           </Button>
-          <Button variant="outline" asChild>
-            <a href="#projects">View projects</a>
+          <Button onClick={() => scrollToSection("projects")} variant="outline">
+            View projects
           </Button>
         </div>
       </div>

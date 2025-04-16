@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="flex justify-center gap-4">
           <Button variant="outline" size="icon" asChild>
             <a
-              href="mailto:john@example.com"
+              href="mailto:hiba@engineer.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@ const Contact = () => {
           </Button>
           <Button variant="outline" size="icon" asChild>
             <a
-              href="https://github.com"
+              href="https://github.com/hib4/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ const Contact = () => {
           </Button>
           <Button variant="outline" size="icon" asChild>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/hib4/"
               target="_blank"
               rel="noopener noreferrer"
             >
