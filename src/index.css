@@ -92,3 +92,70 @@
 .animate-fadeOut {
   animation: fadeOut 0.5s ease-in-out forwards;
 }
+
+@keyframes gradient-scale {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+@keyframes gradient-move {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 20px);
+  }
+}
+
+@keyframes gradient-move-delayed {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-15px, -15px);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-gradient-scale {
+  animation: gradient-scale 12s ease-in-out infinite;
+}
+
+.animate-gradient-move {
+  animation: gradient-move 8s ease-in-out infinite;
+}
+
+.animate-gradient-move-delayed {
+  animation: gradient-move-delayed 10s ease-in-out infinite 2s;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animate-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-300 {
+  animation-delay: 0.3s;
+}
+
+.animate-delay-500 {
+  animation-delay: 0.5s;
+}

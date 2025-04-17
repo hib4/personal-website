@@ -6,7 +6,7 @@ import Contact from "./Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background relative overflow-x-hidden">
       {/* Navbar */}
       <Navbar />
 
