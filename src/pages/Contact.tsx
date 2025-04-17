@@ -9,7 +9,7 @@ const Contact = () => {
           Get in Touch
         </h2>
         <p className="text-lg text-muted-foreground mb-8 animate-fade-in opacity-0 animate-delay-300">
-          I'm always open to new opportunities and exciting projects—Feel
+          I'm always open to new opportunities and exciting projects—feel
           free to reach out anytime!
         </p>
         <div className="flex justify-center gap-4">

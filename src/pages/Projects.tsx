@@ -3,24 +3,25 @@ import ProjectCard from "@/components/ProjectCard";
 const Projects = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "A brief description of project one and its key features.",
-      tags: ["React", "TypeScript", "Tailwind"],
-      link: "#",
+      title: "Moneyger",
+      description:
+        "An app to easily track money, spend wisely, and save smarter.",
+      tags: ["Dart", "Flutter", "Python", "Firebase"],
+      link: "https://play.google.com/store/apps/details?id=me.hib4.moneyger",
     },
     {
-      title: "Project Two",
+      title: "Garda Green",
       description:
-        "Another amazing project with its own unique characteristics.",
-      tags: ["Next.js", "Node.js", "MongoDB"],
-      link: "#",
+        "An environmental adventure game where you dodge waste and collect stars.",
+      tags: ["Dart", "Flutter", "JavaScript", "Flame Engine", "Firebase"],
+      link: "https://play.google.com/store/apps/details?id=me.hib4.garda_green",
     },
     {
-      title: "Project Three",
+      title: "Garuda Hacks 5.0",
       description:
-        "The third project showcasing different technologies and approaches.",
-      tags: ["Vue.js", "Express", "PostgreSQL"],
-      link: "#",
+        "An app to collaborate, innovate, and compete in exciting hackathons.",
+      tags: ["Dart", "Flutter", "Firebase", "Google Cloud Platform"],
+      link: "https://apps.apple.com/us/app/garuda-hacks-5-0/id6504819018",
     },
   ];
 
